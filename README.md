@@ -2,7 +2,7 @@
 
 A responsive, interactive front-end project built during my Web Development Internship at **Cognifyz Technologies**. Everything on the page is fully functional — no mockups, no placeholders.
 
-**Live demo:** https://yourusername.github.io/cognifyz-web-dev-showcase/
+**Live demo:** https://rohaancodess.github.io/cognifyz-web-dev-showcase/
 
 ## Features
 
