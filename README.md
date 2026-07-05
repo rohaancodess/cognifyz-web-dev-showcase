@@ -27,14 +27,6 @@ A responsive, interactive front-end project built during my Web Development Inte
 └── level-3/             # Image manipulation & landing page tasks
 ```
 
-## Getting started
-
-Clone the repo and open `index.html` in any browser — no build steps or dependencies required.
-
-```bash
-git clone https://github.com/yourusername/cognifyz-web-dev-showcase.git
-cd cognifyz-web-dev-showcase
-```
 
 ## About
 
