@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: #222;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+#checkBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4b6cb7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#checkBtn:hover {
+  background: #3d5a9c;
+}
+
+#statusMsg {
+  margin-top: 14px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  display: none;
+}
+
+/* mobile - stack them, drop the fixed height on sidebar */
+@media (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+}
